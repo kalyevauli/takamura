@@ -1,20 +1,29 @@
+<script setup lang="ts">
+</script>
 <template>
-  <div>
+  <div class="nav">
     <header id="header">
       <div class="container">
         <div class="header">
           <div class="circle">
-            <h1>tak <br>am <br> ura</h1>
+            <h1>tak <br> am <br> ura</h1>
           </div>
-          <div class="card relative z-2">
-            <Menubar :model="items" />
+          <div class="square">
+            <NuxtLink to="/event"><a href="#">Наборы</a></NuxtLink>
+            <a href="#">Суши</a>
+            <a href="#">Роллы</a>
+            <a href="#">Теплые роллы</a>
+            <a href="#">Маки</a>
+            <a href="#">Салаты</a>
+            <a href="#">Напитки</a>
+            <a href="#">Соусы</a>
           </div>
           <div class="ion">
-            <a href="#">+7(499)112-38-17</a>
-            <i class="pi pi-user" style="color: orange" />
-            <i class="pi pi-instagram" style="color: orange" />
-            <i class="pi pi-youtube" style="color:orange " />
-            <i class="pi pi-whatsapp" style="color: orange" />
+            <a href="+7(499)112-38-17">+7(499)112-38-17</a>
+            <i class=" pi pi-info-circle" style="color: orange"></i>
+            <i class="pi pi-map" style="color: orange"></i>
+            <i class="pi pi-shopping-cart" style="color: orange"></i>
+            <i class="pi pi-bars" style="color:orange"></i>
           </div>
         </div>
       </div>
@@ -23,85 +32,38 @@
       <div class="container">
         <div class="hero">
           <div class="hero-text">
-            <ul>
-              <li>
-                <NuxtLink to="/event"> <h1>Роллы  <span>TAKAMURA</span></h1></NuxtLink>
-              </li>
-            </ul>
-            <p>У нас есть особая любовь к авокадо,и поэтому <br> мы заворачиваем роллы в него и добавляем в начинку. <br>Авокадо много не бывает.</p>
+            <h1>Роллы <span>Takamura</span></h1>
+            <p>Мы выбираем только качественные <br>  морепродукты,соединяем их со  свежайшими  <br>овощами  и добавляем  немного риса.</p>
             <h2>НАШ НОВЫЙ АДРЕС</h2>
             <h5>Производственная 12к1 «Порт Пивных Дегустаторов»</h5>
-            <div class="card">
-              <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container">
-                <div class="fadeinleft animation-duration-3000 animation-iteration-infinite flex align-items-center justify-content-center
-         font-bold bg-orange-500 text-white border-round m-2 px-5 py-3">
-                  Что ещё?
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="block">
+    <section id="takam">
       <div class="container">
-        <div class="grid">
-          <div class="col-6">
-            <img src="/img/img.png" alt="img">
+        <div class="takam">
+          <img src="/img/img.png" alt="img">
+          <div class="takam-text">
+            <h1>Роллы <span>Takamura</span></h1>
+            <h2>Суши, роллы, салаты и прочие прелести японской кухни привлекают своей <span>загадочностью</span> и необычным вкусом. Редчайшие сочетания компонентов, разнообразные формы подачи блюда вызывают <span>восхищение</span> у всех, кто впервые сталкивается с японской кухней.</h2>
           </div>
-          <div class="col-6" style="align-items: end">
-            <h1>Мы выбираем <span>качественные</span> морепродукты,соединяем их со <span>свежайшими</span> овощами и добавляем немного о риса.</h1>
+        </div>
+        <div class="takam">
+          <div class="takam-text">
+            <h1>Роллы <span>Takamura</span></h1>
+            <h2>У нас особая <span>любовь</span>  к авокадо, и поэтому  мы заворачиваем роллы  в него  и добавляем  в начинку. <span>Авокадо</span>  много  не бывает!</h2>
+          </div>
+          <img src="/img/xxxl.webp" alt="img">
+        </div>
+        <div class="takam">
+          <img src="/img/rolly.jpg" alt="img">
+          <div class="takam-text">
+            <h1>Роллы <span>Takamura</span></h1>
+            <h2>Ласось,тунец,тигровое <span>креветки</span>  и морской  <span>гребешок</span>  в  наших  роллах приправлены исключительно  <span>натуральными</span>  соусамию</h2>
           </div>
         </div>
       </div>
     </section>
-    <section id="class">
-      <div class="container">
-        <div class="class">
-
-        </div>
-      </div>
-    </section>
-    <div class="navbar">
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-    </div>
-    <div class="navbar">
-
-      <Header/>
-      <Header/>
-      <Header/>
-      <Header/>
-    </div>
   </div>
 </template>
-<script setup lang="ts">
-const items = ref([
-  {
-    label: 'Hабор'
-  },
-  {
-    label: 'Суши'
-  },
-  {
-    label: 'Роллы'
-  },
-  {
-    label: 'Теплые роллы'
-  },
-  {
-    label: 'Маки'
-  },
-  {
-    label: 'Салаты'
-  },
-  {
-    label: 'Напитки'
-  },
-  {
-    label: 'Соусы'
-  }
-])
-</script>

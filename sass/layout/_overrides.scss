@@ -13,6 +13,11 @@ a {
 }
 #header{
   position: fixed;
+  width: 100%;
+  z-index: 11;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.06);
+
 }
 .circle{
   position: relative;
@@ -21,7 +26,8 @@ a {
   background: white;
   border-radius: 50%;
   //margin-left: 90px;
-  margin-top: 20px;
+  //margin-top: 20px;
+  margin: 10px 0;
 }
 .circle:hover{
   background: orange;
@@ -59,7 +65,7 @@ a {
 .square a{
   padding-left: 15px;
   position: relative;
-  display: inline-block;
+  //display: inline-block;
   padding-bottom: 5px;
 }
 
@@ -145,4 +151,42 @@ padding: 40px 0;
   align-items: center;
   justify-content: space-around;
   padding: 5%;
+}
+#takam{
+  padding: 40px 0;
+}
+.takam-text h2{
+  width: 500px;
+  font-size: 20px;
+  color: #482106;
+}
+.takam-text h1{
+  font-size: 30px;
+  color: #482106;
+}
+.takam-text span{
+  color: orange;
+}
+.takam{
+  margin: 40px 0;
+  border: 2px solid #482106;
+  border-radius: 15px;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.takam img{
+  width: 500px;
+  height: 350px;
+}
+.event{
+  background: #FFF8E1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lux img{
+  margin-top: 100px;
 }
