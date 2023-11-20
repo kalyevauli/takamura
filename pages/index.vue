@@ -10,7 +10,7 @@
           </div>
           <div class="square">
             <NuxtLink to="/event"><a href="#">Наборы</a></NuxtLink>
-            <a href="#">Суши</a>
+            <NuxtLink to="/header"><a href="#">Суши</a></NuxtLink>
             <a href="#">Роллы</a>
             <a href="#">Теплые роллы</a>
             <a href="#">Маки</a>
@@ -61,6 +61,33 @@
           <div class="takam-text">
             <h1>Роллы <span>Takamura</span></h1>
             <h2>Ласось,тунец,тигровое <span>креветки</span>  и морской  <span>гребешок</span>  в  наших  роллах приправлены исключительно  <span>натуральными</span>  соусамию</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="class">
+      <div class="container">
+        <div class="class">
+          <a href="+7(499)112-38-17">+7(499)112-38-17</a>
+          <div class="class-eats">
+            <i class="pi pi-facebook"></i>
+            <p>@takamura-eats.ru</p>
+          </div>
+          <div class="class-eats">
+            <i class="pi pi-facebook"></i>
+            <p>@takamura-eats.ru</p>
+          </div>
+          <div class="class-eats">
+            <i class="pi pi-facebook"></i>
+            <p>@takamura-eats.ru</p>
+          </div>
+          <div class="class-eats">
+            <i class="pi pi-facebook"></i>
+            <p>@takamura-eats.ru</p>
+          </div>
+          <div class="class-eats">
+            <i class="pi pi-facebook"></i>
+            <p>@takamura-eats.ru</p>
           </div>
         </div>
       </div>

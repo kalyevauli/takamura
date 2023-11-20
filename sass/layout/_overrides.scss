@@ -119,7 +119,7 @@ padding: 40px 0;
 }
 #class{
   background: url("/img/sushi11.jpg") no-repeat center/cover;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 .grid span{
   color: orange;
@@ -189,4 +189,22 @@ padding: 40px 0;
 }
 .lux img{
   margin-top: 100px;
+}
+.class a{
+  color: #FFF8E1;
+  font-size: 26px;
+  margin-top: 50px;
+}
+.class i{
+  color: #FFF8E1;
+  font-size: 26px;
+}
+.class p{
+  color: #FFF8E1;
+  font-size: 26px;
+  padding-left: 10px;
+}
+.class-eats{
+  display: flex;
+  align-items: center;
 }
