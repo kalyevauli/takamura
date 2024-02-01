@@ -41,7 +41,7 @@
     "@unocss/nuxt": "^0.53.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vitest/ui": "^0.32.2",
-    "@vueuse/nuxt": "^10.2.0",
+    "@vueuse/nuxt": "^10.7.2",
     "c8": "^8.0.0",
     "eslint": "^8.43.0",
     "histoire": "^0.16.2",
